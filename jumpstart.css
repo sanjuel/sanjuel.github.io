@@ -1,0 +1,62 @@
+h1, h2 {
+  text-align: center;
+}
+body {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a0/Environments-21-cave.png");
+  background-repeat: no-repeat;
+  background-color: lightblue;
+  background-size: cover;
+}
+h2 {
+  font-size: 200%;
+}
+h2 {
+  color: hotpink
+}
+.pinkrules {
+  display:flex;
+  justify-content:center;
+  width: 400px;
+  background-color: black;
+  border width: 3px;
+  border-style: inset;
+  border-color: pink;
+  color: hotpink;
+  align-items: center;
+  margin:auto;
+}
+
+.table {
+  border-width 1px;
+  border-style: groove;
+  border-color: red;
+  font-size: 200px;
+}
+
+table {
+  display:flex;
+  justify-content: center;
+}
+
+h1 {
+  animation: bounce 3s infinite;
+  animation-timing-function: ease-in-out;
+  font-size: 500%;
+  color: red;
+}
+
+@keyframes bounce {
+   0% {
+     transform:scaleX(0.5);
+   }
+   60%{
+     transform: scaleX(1);
+   }
+   100%{
+     transform: scaleX(0.8);
+   }
+}
+
+footer {
+  color: hotpink
+}

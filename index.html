@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Jumpstart Treasure Hunt</title>
+    <link rel="stylesheet" href="jumpstart.css">
+    <link rel="icon" type="image"/x-icon href="https://www.logolynx.com/images/logolynx/1f/1f0ee4cddf26c15564becb302a1b8610.jpeg">
+  </head>
+  <body>
+    <h1>Enter the Dragon!</h1>
+    <h2>The wacky world of martial arts treasure hunt</h2>
+    <hr>
+    <div class="pinkrules">
+    <ul>
+      <li>Rules for the game:</li>
+      <li>Click on the boxes to reveal the hidden picture underneath</li>
+      <li>If you can pick out the dragon, you win!</li>
+      <li>If you pick out the bomb, you lose :(</li>
+    </ul>
+  </div>
+<br>
+
+<div id="game">
+    <table class="table">
+      <tr>
+        <td onclick="treasure(0)" id=0><img src= "https://www.pngkey.com/png/full/293-2938476_chinese-dragon-transparent-chinese-stamp.png" height=250></td>
+        <td onclick="treasure(1)" id=1><img src= "https://www.pngkey.com/png/full/293-2938476_chinese-dragon-transparent-chinese-stamp.png" height=250></td>
+        <td onclick="treasure(2)" id=2><img src= "https://www.pngkey.com/png/full/293-2938476_chinese-dragon-transparent-chinese-stamp.png" height=250></td>
+      </tr>
+      <tr>
+        <td onclick="treasure(3)" id=3><img src= "https://www.pngkey.com/png/full/293-2938476_chinese-dragon-transparent-chinese-stamp.png" height=250></td>
+        <td onclick="treasure(4)" id=4><img src= "https://www.pngkey.com/png/full/293-2938476_chinese-dragon-transparent-chinese-stamp.png" height=250></td>
+        <td onclick="treasure(5)" id=5><img src= "https://www.pngkey.com/png/full/293-2938476_chinese-dragon-transparent-chinese-stamp.png" height=250></td>
+      </tr>
+      <tr>
+        <td onclick="treasure(6)" id=6><img src= "https://www.pngkey.com/png/full/293-2938476_chinese-dragon-transparent-chinese-stamp.png" height=250></td>
+        <td onclick="treasure(7)" id=7><img src= "https://www.pngkey.com/png/full/293-2938476_chinese-dragon-transparent-chinese-stamp.png" height=250></td>
+        <td onclick="treasure(8)" id=8><img src= "https://www.pngkey.com/png/full/293-2938476_chinese-dragon-transparent-chinese-stamp.png" height=250></td>
+      </tr>
+    </table>
+  </div>
+
+    <button type="button" onclick="location.reload()">Restart Game</button>
+    <footer>
+      Samuel Scott | Ayce Holliman | Jumpstart July 2022 | <a href="plumblossom.net">For the real Martial Artists!</a>
+    </footer>
+    <script type="text/javascript" src="treasure.js"></script>
+  </body>
+</html>
